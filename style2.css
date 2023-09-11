@@ -1,0 +1,11 @@
+.navbar-nav a{
+    color:aqua;
+    display:flex;
+}
+/*.nav item*/
+.navbar-collapse ul li{
+    color:beige;
+    display:inline-flex;
+    padding-left: 10px;
+
+}

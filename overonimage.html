@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .product-top{
+    position:relative;
+    background: #f90;
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+    }
+    .button{
+    position: relative;
+    z-index: 1;
+    }*/
+    .overlay-right{
+    position: absolute;
+    z-index: 2;
+    top: 44px;
+    display: none;
+    left: 59px;
+    width:20px;
+    }
+    .product-top:hover .overlay-right{ 
+    display:block;
+    transition: 0.0001s;
+    }
+    </style>
+<body>
+    <div class="product-top" style="margin-left: -3%;">
+             
+            
+        <img src="image1.4.webp">
+        <div class="overlay-right">
+            <button type="button" class="btn btn-secondary" title="Quick shop">
+                <i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="fa fa-heart-o"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to cart">
+                <i class="fa fa-shopping"></i>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
